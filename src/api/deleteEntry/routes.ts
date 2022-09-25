@@ -7,7 +7,7 @@ import Logger from '../../loaders/logger';
 
 const delEntryRoute = Router();
 
-delEntryRoute.post(
+delEntryRoute.delete(
     '/id',
     validateDeleteMW(deleteIdSchema),
     async(req:Request, res:Response, next:NextFunction) => {
@@ -45,7 +45,7 @@ delEntryRoute.post(
     }
 )
 
-delEntryRoute.post(
+delEntryRoute.delete(
     '/email',
     validateDeleteMW(deleteEmailSchema),
     async(req:Request, res:Response, next:NextFunction) => {
