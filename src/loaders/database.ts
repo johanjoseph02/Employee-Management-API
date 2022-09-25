@@ -7,7 +7,7 @@ let supabase: SupabaseClient;
 export default (): SupabaseClient => {
   const options = {
     schema: 'public',
-    headers: { 'X-Project-Name': 'events-portal' },
+    headers: { 'X-Project-Name': 'employee-management' },
     autoRefreshToken: true,
     persistSession: true,
     detectSessionInUrl: true,
