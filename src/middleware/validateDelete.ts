@@ -1,11 +1,11 @@
 import Logger from  '../loaders/logger';
 import * as yup from 'yup';
 
-const validateDeleteMW = (addSchema) => async (req, res, next) => {
+const validateDeleteMW = (delSchema) => async (req, res, next) => {
     const resource = req.body;
     try 
     {
-      await addSchema.validate(resource);
+      await delSchema.validate(resource);
       next();
     } 
     catch (err) 
