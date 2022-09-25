@@ -8,8 +8,9 @@ import validateRecaptcha from '../../middleware/validateCaptcha';
 
 const updateEntryRoute = Router();
 
-// not using since middleware this route would throw an error
-// if token is absent in request body, purely for testing purposes
+/* Captcha middleware is commented out
+purely for testing purposes, so as to
+avoid errors from Postman */
 
 // addEntryRoute.use(validateRecaptcha);
 
