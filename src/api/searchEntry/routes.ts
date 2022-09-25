@@ -13,7 +13,7 @@ const searchEntryRoute = Router();
 
 // addEntryRoute.use(validateRecaptcha);
 
-searchEntryRoute.post(
+searchEntryRoute.get(
     '/',
     validateSearchMW(searchSchema),
     async(req:Request, res:Response, next:NextFunction) => {
