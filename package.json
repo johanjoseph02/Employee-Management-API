@@ -1,34 +1,35 @@
 {
-    "name": "employee-management",
-    "main": "build/index.js",
-    "scripts": {
-      "start": "node build/index.js",
-      "build": "tsc",
-      "lint": "eslint . --ext .ts",
-      "dev": "tsc-watch --onSuccess 'node ./build/index.js'"
-    },
-    "devDependencies": {
-      "@types/express": "^4.17.8",
-      "@types/node": "^14.14.5",
-      "@typescript-eslint/eslint-plugin": "^4.6.0",
-      "@typescript-eslint/parser": "^4.6.0",
-      "eslint": "^7.12.1",
-      "tsc-watch": "^4.2.9",
-      "typescript": "^4.0.5"
-    },
-    "dependencies": {
-      "@aws-sdk/client-ses": "^3.145.0",
-      "@supabase/supabase-js": "^1.35.6",
-      "axios": "^0.27.2",
-      "cors": "^2.8.5",
-      "dotenv": "^16.0.1",
-      "express": "^4.17.1",
-      "express-rate-limit": "^6.5.1",
-      "helmet": "^4.1.1",
-      "nanoid": "3.3.4",
-      "winston": "^3.3.3"
-    },
-    "author": "Johan Mathew Joseph",
-    "license": "UNLICENSED"
-  }
-  
+  "name": "employee-management",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "node build/index.js",
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "dev": "tsc-watch --onSuccess 'node ./build/index.js'"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.8",
+    "@types/node": "^14.14.5",
+    "@typescript-eslint/eslint-plugin": "^4.6.0",
+    "@typescript-eslint/parser": "^4.6.0",
+    "eslint": "^7.12.1",
+    "tsc-watch": "^4.2.9",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.145.0",
+    "@supabase/supabase-js": "^1.35.6",
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.1",
+    "express-rate-limit": "^6.5.1",
+    "helmet": "^4.1.1",
+    "nano": "^10.0.0",
+    "nanoid": "3.3.4",
+    "winston": "^3.3.3",
+    "yup": "^0.32.11"
+  },
+  "author": "Johan Mathew Joseph",
+  "license": "UNLICENSED"
+}
