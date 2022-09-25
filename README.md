@@ -52,6 +52,10 @@ https://employee-mgmt-kzilla.herokuapp.com/api/delete-employee/email<img width="
     
 https://employee-mgmt-kzilla.herokuapp.com/api/delete-employee/id<img width="1295" alt="delete-employee-id" src="https://user-images.githubusercontent.com/69423830/192150660-628630bc-458a-49d2-b929-421144cb9f9c.png">
 
+## Additional Features:
+ - Schema validation using Yup
+ - Google Recaptcha v3 integration
+
 
 
 ### [SRMKZILLA Recruitments '22](https://recruitments.kzilla.xyz)
