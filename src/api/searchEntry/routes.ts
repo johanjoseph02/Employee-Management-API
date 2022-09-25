@@ -4,14 +4,8 @@ import searchSchema from './searchSchema';
 import config from '../../config';
 import supabase from '../../loaders/database';
 import Logger from '../../loaders/logger';
-import validateRecaptcha from '../../middleware/validateCaptcha';
 
 const searchEntryRoute = Router();
-
-// not using since middleware this route would throw an error
-// if token is absent in request body, purely for testing purposes
-
-// addEntryRoute.use(validateRecaptcha);
 
 searchEntryRoute.get(
     '/',
