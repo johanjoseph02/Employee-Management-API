@@ -1,7 +1,7 @@
 import Logger from  '../loaders/logger';
 import * as yup from 'yup';
 
-const validateDeleteMW = (searchSchema) => async (req, res, next) => {
+const validateSearchMW = (searchSchema) => async (req, res, next) => {
     const resource = req.query;
     try 
     {
@@ -15,4 +15,4 @@ const validateDeleteMW = (searchSchema) => async (req, res, next) => {
     }
   };
   
-  export default validateDeleteMW;
+  export default validateSearchMW;
